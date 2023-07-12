@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.Card-item img {
+    box-shadow: 30px 0px 26px rgb(109, 109, 109);
+    padding: 5px;
+}
+.Card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+    transition: .5s;
+}
+
+.Card-item:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.Card-item1 img {
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+.Card-item1 {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+    transition: .5s;
+}
+
+.Card-item1:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin: 28px;
+    height: 44vh;
+}
+.cards1 {
+    display: flex;
+    justify-content: center;
+    overflow:visible;
+    margin: 28px;
+    height: 58vh;
+}
+.cards1 img{
+    height: 300px;
+
+}
+
+.cards img
+{
+    height: 200px;
+}
+.Outer-box
+{
+    display: flex;
+    justify-content: center;
+    margin: 135px;
+    color: white;
+    width: 100vw;
+}
+.inner-box
+{
+    margin: 23px;
+    margin-left: 21vh;
+    width: 100vw;
+}
+.inner-box img
+{
+    height: 170px;
+    margin: 20px;
+}
+
